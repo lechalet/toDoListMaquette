@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="icon" type="image/png" href="https://example.com/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+</head>
+
+<body>
+    <header>
+        <nav class="nav d-flex justify-content-between" style="background: rgba(30, 94, 131, 0.842);">
+            <a class="nav-link text-white" style="font-size: 2rem;" href="#">Mes liste</a>
+            <a class="nav-link text-white" style="font-size: 2rem;" href="#">Ajouter une liste</a>
+        </nav>
+    </header>
+    <main>
+        <div class="card m-2" style="width: auto; background: purple;">
+            <div class="d-flex justify-content-between m-2 text-white">
+                <h2>Liste n°1</h2>
+                <h4>Lundi 15 mars 2020</h4>
+            </div>
+            <div class="d-flex justify-content-between text-white m-1">
+                <input type="checkbox" class="checkbox mt-2 ml-4" name="check" id="check">
+                <label for="check" class="check mt-1">Déposer les fleurs au cimetière</label>
+                <button class="suppr btn btn-danger mr-4" type="submit">Supprimer la tâche</button>
+            </div>
+            <div class="d-flex justify-content-between text-white m-1">
+                <input type="checkbox" class="checkbox mt-2 ml-4" name="check" id="check">
+                <label for="check" class="check mt-1">Ranger le grenier</label>
+                <button class="suppr btn btn-danger mr-4" type="submit">Supprimer la tâche</button>
+            </div>
+            <div class="d-flex justify-content-between text-white m-1">
+                <input type="checkbox" class="checkbox mt-2 ml-4" name="check" id="check">
+                <label for="check" class="check mt-1">Donner le vélo a Bérénice</label>
+                <button class="suppr btn btn-danger mr-4" type="submit">Supprimer la tâche</button>
+            </div>
+            <button class="btn btn-info mt-3">Ajouter une tâche</button>
+            <button class="btn btn-danger">Suppirmer la liste</button>
+        </div>
+        <div class="card m-2" style="width: auto; background: purple;">
+            <div class="d-flex justify-content-between m-2 text-white">
+                <h2>Liste n°2</h2>
+                <h4>Mardi 18 mars 2020</h4>
+            </div>
+            <div class="d-flex justify-content-between text-white m-1">
+                <input type="checkbox" class="checkbox mt-2 ml-4" name="check" id="check">
+                <label for="check" class="check mt-1">Promener le chien</label>
+                <button class="suppr btn btn-danger mr-4" type="submit">Supprimer la tâche</button>
+            </div>
+            <div class="d-flex justify-content-between text-white m-1">
+                <input type="checkbox" class="checkbox mt-2 ml-4" name="check" id="check">
+                <label for="check" class="check mt-1">Laver la 406</label>
+                <button class="suppr btn btn-danger mr-4" type="submit">Supprimer la tâche</button>
+            </div>
+            <div class="d-flex justify-content-between text-white m-1">
+                <input type="checkbox" class="checkbox mt-2 ml-4" name="check" id="check">
+                <label for="check" class="check mt-1">Message à la grand mère</label>
+                <button class="suppr btn btn-danger mr-4" type="submit">Supprimer la tâche</button>
+            </div>
+            <button class="btn btn-info mt-3">Ajouter une tâche</button>
+            <button class="btn btn-danger">Suppirmer la liste</button>
+        </div>
+        <div class="card m-2" style="width: auto; background: purple;">
+            <div class="d-flex justify-content-between m-2 text-white">
+                <h2>Liste n°3</h2>
+                <h4>Jeudi 18 mars 2020</h4>
+            </div>
+            <div class="d-flex justify-content-between text-white m-1">
+                <input type="checkbox" class="checkbox mt-2 ml-4" name="check" id="check">
+                <label for="check" class="check mt-1">Faire une machine à laver</label>
+                <button class="suppr btn btn-danger mr-4" type="submit">Supprimer la tâche</button>
+            </div>
+            <div class="d-flex justify-content-between text-white m-1">
+                <input type="checkbox" class="checkbox mt-2 ml-4" name="check" id="check">
+                <label for="check" class="check mt-1">Faire la vaiselle</label>
+                <button class="suppr btn btn-danger mr-4" type="submit">Supprimer la tâche</button>
+            </div>
+            <div class="d-flex justify-content-between text-white m-1">
+                <input type="checkbox" class="checkbox mt-2 ml-4" name="check" id="check">
+                <label for="check" class="check mt-1">Réparer le lave vaiselle</label>
+                <button class="suppr btn btn-danger mr-4" type="submit">Supprimer la tâche</button>
+            </div>
+            <button class="btn btn-info mt-3">Ajouter une tâche</button>
+            <button class="btn btn-danger">Suppirmer la liste</button>
+        </div>
+        <div class="card m-2" style="width: auto; background: purple;">
+            <div class="d-flex justify-content-between m-2 text-white">
+                <h2>Liste n°4</h2>
+                <h4>Vendredi 19 mars 2020</h4>
+            </div>
+            <div class="d-flex justify-content-between text-white m-1">
+                <input type="checkbox" class="checkbox mt-2 ml-4" name="check" id="check">
+                <label for="check" class="check mt-1">Faire le repassage des chemises</label>
+                <button class="suppr btn btn-danger mr-4" type="submit">Supprimer la tâche</button>
+            </div>
+            <div class="d-flex justify-content-between text-white m-1">
+                <input type="checkbox" class="checkbox mt-2 ml-4" name="check" id="check">
+                <label for="check" class="check mt-1">Faire la lessive</label>
+                <button class="suppr btn btn-danger mr-4" type="submit">Supprimer la tâche</button>
+            </div>
+            <div class="d-flex justify-content-between text-white m-1">
+                <input type="checkbox" class="checkbox mt-2 ml-4" name="check" id="check">
+                <label for="check" class="check mt-1">Bière avec les copains</label>
+                <button class="suppr btn btn-danger mr-4" type="submit">Supprimer la tâche</button>
+            </div>
+            <button class="btn btn-info mt-3">Ajouter une tâche</button>
+            <button class="btn btn-danger">Suppirmer la liste</button>
+        </div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
