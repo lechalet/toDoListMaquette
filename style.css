@@ -14,13 +14,14 @@ h1 {
     text-align: center;
 }
 
-.input_div {
+.input_dev {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    
 }
-.input_div .input {
+.input_dev .input {
     padding: 0.5rem 1rem;
     height: 50px;
     outline: none;
@@ -34,6 +35,7 @@ h1 {
     height: 50px;
     width: 50px;
     border-radius: 25px;
+    font-size: 2.2rem;
     outline: none;
     border: none;
     margin: 25px;
